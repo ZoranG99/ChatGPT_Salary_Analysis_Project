@@ -43,7 +43,7 @@ Data wrangling was done primarily with **Pandas** and **NumPy**.
 4. **Tokenization**  
    - Created `description_tokens` for text-based exploration of job descriptions.  
 
-*These preprocessing steps ensured the dataset was consistent, reduced redundancy, and made it suitable for **Exploratory Data Analysis (EDA)** and machine learning tasks.*  
+These preprocessing steps ensured the dataset was consistent, reduced redundancy, and made it suitable for **Exploratory Data Analysis (EDA)** and machine learning tasks.
 
 ## Exploratory Data Analysis
 
@@ -100,7 +100,7 @@ Below are selected highlights:
         - Some hubs consistently offer above-average pay.  
         - Geographic location is a key driver of compensation levels.  
 
-*The insights from EDA guided the choice of features used in the machine learning model.*  
+The insights from EDA guided the choice of features used in the machine learning model. 
 
 ## Machine Learning Model
 
@@ -136,7 +136,7 @@ To predict yearly salaries, a **Random Forest Regressor** was implemented as the
 - Performance suggests that categorical job metadata alone is not enough for precise salary prediction.  
 - Incorporating additional features (e.g., job description text embeddings, company size, industry) could improve accuracy.  
 
-*The following section visualizes the model’s performance.* 
+The following section visualizes the model’s performance.
 
 ## Model Results and Visualizations
 
@@ -164,7 +164,7 @@ The Random Forest model was evaluated on the test dataset.
       - Overall prediction accuracy is low, with narrow ranges across platforms.  
       - Highlights that richer feature sets are needed to separate platform-level salary effects.  
 
-*These visualizations confirm the limitations of the baseline model and highlight directions for improvement.*  
+These visualizations confirm the limitations of the baseline model and highlight directions for improvement.  
   
 ## Conclusion and Future Work
 
