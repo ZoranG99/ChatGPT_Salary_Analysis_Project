@@ -58,7 +58,7 @@ Below are selected highlights:
 1. **Categorical Variables**  
    - Identified the **Top 10 Job Platforms**.  
 
-        <img src="images/EDA/Top_10_Job_Platforms.png" alt="Top 10 Job Platforms" width="50%"/>  
+        <img src="images/EDA/Top_10_Job_Platforms.png" alt="Top 10 Job Platforms" width="65%"/>  
 
         **Insights**:  
         - LinkedIn dominates as the leading job posting source.  
@@ -69,7 +69,7 @@ Below are selected highlights:
    - Examined salary-related fields with histograms.  
    - Example: Distribution of yearly salaries.  
 
-        <img src="images/EDA/Distribution_of_Salary_Yearly.png" alt="Distribution of Salary Yearly" width="50%"/>  
+        <img src="images/EDA/Distribution_of_Salary_Yearly.png" alt="Distribution of Salary Yearly" width="65%"/>  
 
         **Insights**:  
         - Salaries are heavily skewed toward lower ranges.  
@@ -79,21 +79,21 @@ Below are selected highlights:
 3. **Cross Analysis**  
    - Compared average yearly salaries across the most common job platforms, job titles, and job locations.  
 
-        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Platforms.png" alt="Average Yearly Salary by Top 10 Job Platforms" width="50%"/>  
+        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Platforms.png" alt="Average Yearly Salary by Top 10 Job Platforms" width="65%"/>  
 
         **Insights**:  
         - Smaller niche platforms report higher average salaries.  
         - LinkedIn shows lower averages despite being dominant in posting volume.  
         - Salary variation by platform suggests audience and industry targeting.  
 
-        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Titles.png" alt="Average Yearly Salary by Top 10 Job Titles" width="50%"/>  
+        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Titles.png" alt="Average Yearly Salary by Top 10 Job Titles" width="65%"/>  
 
         **Insights**:  
         - Senior roles tend to command higher salaries.  
         - Generalist roles such as Data Analyst fall on the lower end.  
         - Specialized roles like Data Scientist have strong earning potential.  
 
-        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Locations.png" alt="Average Yearly Salary by Top 10 Job Locations" width="50%"/>  
+        <img src="images/EDA/Average_Yearly_Salary_by_Top_10_Job_Locations.png" alt="Average Yearly Salary by Top 10 Job Locations" width="65%"/>  
 
         **Insights**:  
         - Salaries vary significantly across locations.  
@@ -146,7 +146,7 @@ The Random Forest model was evaluated on the test dataset.
 
 1. **Predicted vs Actual Salaries ($USD)**  
    - A scatter plot comparing predicted salaries with actual values.  
-      <img src="images/ML/Predicted_vs_Actual_Salaries.png" alt="Predicted vs Actual Salaries" width="50%"/>  
+      <img src="images/ML/Predicted_vs_Actual_Salaries.png" alt="Predicted vs Actual Salaries" width="65%"/>  
 
    **Insights**:  
    - Model consistently underestimates salaries at the high end.  
@@ -156,7 +156,7 @@ The Random Forest model was evaluated on the test dataset.
 2. **Predicted Salaries by Platform ($USD)**  
    - Comparison of predicted salaries for *Data Analyst* across different platforms.  
 
-      <img src="images/ML/Predicted_Salaries_by_Platform.png" alt="Predicted Salaries by Platform" width="50%"/>  
+      <img src="images/ML/Predicted_Salaries_by_Platform.png" alt="Predicted Salaries by Platform" width="65%"/>  
 
    **Insights**:  
    - Relative differences between platforms are captured (LinkedIn slightly higher than smaller sites).  
