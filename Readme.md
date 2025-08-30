@@ -43,7 +43,7 @@ Data wrangling was done primarily with **Pandas** and **NumPy**.
 4. **Tokenization**  
    - Created `description_tokens` for text-based exploration of job descriptions.  
 
-These preprocessing steps ensured the dataset was consistent, reduced redundancy, and made it suitable for **Exploratory Data Analysis (EDA)** and machine learning tasks.  
+*These preprocessing steps ensured the dataset was consistent, reduced redundancy, and made it suitable for **Exploratory Data Analysis (EDA)** and machine learning tasks.*  
 
 ## Exploratory Data Analysis
 
@@ -100,7 +100,7 @@ Below are selected highlights:
         - Some hubs consistently offer above-average pay.  
         - Geographic location is a key driver of compensation levels.  
 
-The insights from EDA guided the choice of features used in the machine learning model.  
+*The insights from EDA guided the choice of features used in the machine learning model.*  
 
 ## Machine Learning Model
 
@@ -145,25 +145,26 @@ The Random Forest model was evaluated on the test dataset.
 ### Visualizations
 
 1. **Predicted vs Actual Salaries ($USD)**  
-   - A scatter plot comparing predicted salaries with actual values.  
+   - A scatter plot comparing predicted salaries with actual values. 
+
       <img src="images/ML/Predicted_vs_Actual_Salaries.png" alt="Predicted vs Actual Salaries" width="65%"/>  
 
-   **Insights**:  
-   - Model consistently underestimates salaries at the high end.  
-   - Predictions cluster around mid-range values, showing limited sensitivity to extremes.  
-   - Indicates bias toward average salaries and limited explanatory power of the baseline model.  
+      **Insights**:  
+      - Model consistently underestimates salaries at the high end.  
+      - Predictions cluster around mid-range values, showing limited sensitivity to extremes.  
+      - Indicates bias toward average salaries and limited explanatory power of the baseline model.  
 
 2. **Predicted Salaries by Platform ($USD)**  
    - Comparison of predicted salaries for *Data Analyst* across different platforms.  
 
       <img src="images/ML/Predicted_Salaries_by_Platform.png" alt="Predicted Salaries by Platform" width="65%"/>  
 
-   **Insights**:  
-   - Relative differences between platforms are captured (LinkedIn slightly higher than smaller sites).  
-   - Overall prediction accuracy is low, with narrow ranges across platforms.  
-   - Highlights that richer feature sets are needed to separate platform-level salary effects.  
+      **Insights**:  
+      - Relative differences between platforms are captured (LinkedIn slightly higher than smaller sites).  
+      - Overall prediction accuracy is low, with narrow ranges across platforms.  
+      - Highlights that richer feature sets are needed to separate platform-level salary effects.  
 
-These visualizations confirm the limitations of the baseline model and highlight directions for improvement.  
+*These visualizations confirm the limitations of the baseline model and highlight directions for improvement.*  
   
 ## Conclusion and Future Work
 
