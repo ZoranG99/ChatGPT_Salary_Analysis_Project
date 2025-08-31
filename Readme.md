@@ -18,7 +18,7 @@ The project combines **Exploratory Data Analysis (EDA)** and **Machine Learning*
 
 ## Dataset Description
 
-The dataset contains job postings data with **27 columns** and thousands of rows, covering information about job titles, companies, locations, salaries, and platforms.  
+The dataset contains job postings data with **27 columns** and **61,953 rows**, covering information about job titles, companies, locations, salaries, and platforms.  
 
 The dataset is stored in the repository under [csv/gsearch_jobs.csv](csv/gsearch_jobs.csv).
 
